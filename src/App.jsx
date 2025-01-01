@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SparklesIcon, StarIcon, GiftIcon, HeartIcon, SunIcon } from '@heroicons/react/24/solid';
-import imgPapa from './assets/monPapa.jpeg';
+import imgPapa from './assets/monPapa.png';
 const TextReveal = ({ children, delay = 0 }) => (
   <motion.div
     initial={{ y: 20, opacity: 0 }}
