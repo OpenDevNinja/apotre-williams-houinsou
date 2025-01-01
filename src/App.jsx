@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { SparklesIcon, StarIcon, GiftIcon, HeartIcon, SunIcon } from '@heroicons/react/24/solid';
-
+import imgPapa from './assets/monPapa.jpeg';
 const TextReveal = ({ children, delay = 0 }) => (
   <motion.div
     initial={{ y: 20, opacity: 0 }}
@@ -245,7 +245,7 @@ const Card = () => {
                 <div className="relative w-full h-full rounded-full overflow-hidden border-4 border-white/30 shadow-xl group-hover:border-white/50 transition-all duration-300">
                   <div className="w-full h-full relative">
                     <img
-                      src="https://mcrhema.org/assets/monPapa-GJUGVVyb.jpeg"
+                      src={imgPapa} 
                       alt="Profile"
                       className="absolute w-full h-full object-cover object-center transform scale-110 group-hover:scale-125 transition-transform duration-300"
                     />
@@ -290,7 +290,7 @@ const Card = () => {
                Message de Nouvel An de l’Apôtre Williams Houinsou
               </motion.h2>
 
-              <div className="space-y-6 text-lg md:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
+              <div className="space-y-6 text-lg  md:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
                 <TextReveal delay={1.5}>
                   <p className="transition-all duration-300 hover:text-white hover:shadow-lg hover:scale-105">
                     En cette nouvelle année 2025, je proclame sur vous la paix, la joie et l'abondance divine. Que l'Éternel renouvelle vos forces, ouvre des portes de bénédictions et vous conduise dans Sa lumière.
