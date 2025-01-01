@@ -293,17 +293,24 @@ const Card = () => {
               <div className="space-y-6 text-lg  md:text-xl text-white/90 leading-relaxed max-w-2xl mx-auto">
                 <TextReveal delay={1.5}>
                   <p className="transition-all duration-300 hover:text-white hover:shadow-lg hover:scale-105">
-                    En cette nouvelle année 2025, je proclame sur vous la paix, la joie et l'abondance divine. Que l'Éternel renouvelle vos forces, ouvre des portes de bénédictions et vous conduise dans Sa lumière.
-                  </p>
+                  Bien-aimés dans le Seigneur,
+                   </p>
+                   <p className="transition-all duration-300 hover:text-white hover:shadow-lg hover:scale-105">
+                   En cette année 2025, une Nouvelle Ère s’ouvre devant nous, marquée par la grâce, la faveur divine et des opportunités extraordinaires. Que l’Éternel renouvelle vos forces, vous conduise dans des dimensions
+                    spirituelles plus profondes et ouvre des portes de bénédictions sans limites.
+                   </p>
                 </TextReveal>
                 <TextReveal delay={1.8}>
                   <p className="transition-all duration-300 hover:text-white hover:shadow-lg hover:scale-105">
-                    Restons fermes dans la foi et unis pour glorifier le nom de Jésus-Christ. Que cette année soit une saison de témoignages puissants dans vos vies et vos familles.
-                  </p>
+                  Cette Nouvelle Ère est une saison de restauration et d’élévation. Marchons avec foi 
+                  et détermination, sachant que Celui qui a commencé en nous cette œuvre parfaite est 
+                  fidèle pour l'accomplir. Que Sa lumière éclaire votre chemin et 
+                  que Sa main puissante vous soutienne dans tous vos projets. </p>
+                 
                 </TextReveal>
                 <TextReveal delay={2.1}>
                   <p className="transition-all duration-300 hover:text-white hover:shadow-lg hover:scale-105">
-                    Bonne et Heureuse Année à tous, sous la grâce de notre Seigneur !
+                  Bonne et Heureuse Année 2025, sous la direction du Saint-Esprit !
                   </p>
                 </TextReveal>
                 <TextReveal delay={2.4}>
